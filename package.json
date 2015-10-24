@@ -1,0 +1,22 @@
+{
+  "name": "ember-loader-frameworkish",
+  "version": "1.0.0",
+  "description": "Ember loader example for frameworkish",
+  "build": "webpack && cp src/index.html dist",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.6.5",
+    "css-loader": "^0.21.0",
+    "ember-loader": "0.0.20",
+    "handlebars": "^4.0.3",
+    "script-loader": "^0.6.1",
+    "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "ember-templates-loader": "^1.13.0"
+  }
+}
